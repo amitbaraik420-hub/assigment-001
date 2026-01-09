@@ -37,8 +37,12 @@ margin: 15px 0px;
 border-radius: 4px;
 background: #30B868;
 cursor: pointer;
+}
+nav button:hover{
+    background-color: aquamarine;
 
 }
+
 nav img{
     width: 140px;
     height: 61px;
@@ -174,4 +178,67 @@ color: var(--#627382, rgba(98, 115, 130, 1));
     width: 670px;
     height: 20px;
 
+}
+.bangladesh{
+  width:1200px;
+  height:100px;
+}
+.button{
+width: 1200px;
+height: 85px;
+}
+.hello{
+width: 1200px;
+height: 350px;
+display: flex;
+margin: auto;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 19px;
+padding: 50px;
+border-radius: 12px;
+background: rgba(247, 246, 242, 1);
+
+}
+.bangladesh{
+    margin: 20px;
+}
+.bangladesh h1{
+    text-align: center;
+}
+.bangladesh p{
+      text-align: center;
+      color: #627382;
+      
+
+
+}
+.button{
+    margin: 50px;
+}
+ 
+
+.button button:hover{
+    background-color: aquamarine;
+}
+.button p{
+ 
+    text-align: center;
+    margin: 20px;
+}
+.button button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 16px 12px 16px;
+margin: 0px auto;
+background-color: #30B868;
+cursor: pointer;
+}
+.button button img{
+    width:15px;
+    height: 15px;
 }
