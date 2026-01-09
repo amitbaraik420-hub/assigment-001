@@ -49,10 +49,12 @@ height: 800px;
 margin: auto 40px;
 }
 .head {
-  display: flex;
-  gap: 16px;
-padding: 120px;
-margin: ;
+ width: 1200px; 
+ margin: 40px auto;  
+display: flex;
+gap: 16px;
+
+
 }
 .box1 img{
 background: rgba(249, 85, 85, 1);
@@ -116,4 +118,60 @@ font-weight: 400;
 line-height: 20px;
 letter-spacing: 0%;
 text-align: center;
+}
+.about{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  
+}
+.Knowledge img{
+    width: 500px;
+    height: 500px;
+    padding: 1px;
+
+}
+.solution{
+width: 650px;
+height: 380px;
+display: flex;
+gap: 40px;
+flex-direction: column;
+justify-content: flex-start;
+align-items:flex-start;
+padding: 12px;
+
+
+}
+.solution p{
+     font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+color: var(--#627382, rgba(98, 115, 130, 1));
+
+
+}
+.log{
+    width: 670px;
+    height: 125px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.log div img{
+    width: 20px;
+    height: 20px;
+}
+.log div{
+    width: 670px;
+    height: 20px;
+
 }
