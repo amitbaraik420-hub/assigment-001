@@ -42,6 +42,11 @@ nav button:hover{
     background-color: aquamarine;
 
 }
+.note{
+    width: 1000px;
+    height: 290px;
+    margin: auto;
+}
 
 nav img{
     width: 140px;
@@ -52,6 +57,78 @@ div img{
 height: 800px;
 margin: auto 40px;
 }
+.amit{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    background-image: url(images/B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-color: lightgoldenrodyellow;
+   display: flex;
+   flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   gap: 32px;
+
+    
+}
+.amit h1{
+    text-align: center;
+}
+.one{
+text-align: center;
+width: 229px;
+height: 35px;
+border-radius: 1000px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 6px;
+padding: 8px 12px 8px 10px;
+margin: auto;
+
+
+}
+ button{
+   width: 200px;
+   height: 40px;
+  
+ 
+
+
+}
+.amazon{
+width: 1000px;
+height: 45px;
+margin: auto;
+text-align: center;
+margin:100px;
+}
+h1{
+    padding: 10px;
+}
+.hover{
+    background-color: #30B868;
+    cursor: pointer;
+}
+.hover:hover{
+    background-color: aquamarine;
+
+}
+.daraz:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.book{
+    text-align: center;
+    color: white;
+    width: 1000px;
+    height: 60px;
+    padding: 20px;
+}
+
+
 .head {
  width: 1200px; 
  margin: 40px auto;  
@@ -228,11 +305,12 @@ background: rgba(247, 246, 242, 1);
     margin: 20px;
 }
 .button button{
+
+
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 10;
+gap: 10px;
 padding: 12px 16px 12px 16px;
 margin: 0px auto;
 background-color: #30B868;
@@ -243,14 +321,15 @@ cursor: pointer;
     height: 15px;
 }
 .icon{
-    width:1200px;
+    width:1100px;
     height: 50px;
     text-align: center;
-    margin: 80px;
+    margin: 80px 0px;
     color: white;
 }
-.li{width:1200px;
+.li{width:1000px;
     height:60px;
+    margin: auto;
 
 }
 .li ul {
